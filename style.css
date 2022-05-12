@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 .bob-esponja {
     border: 2px solid black;
@@ -12,9 +13,21 @@ body {
     width: 100%;
     height: 65%;
     background-color: #F5EE31;
+    display: flex;
+    justify-content: center; 
+}
+
+.cara-interior {
+    width: 75%;
+    height: 75%;
+    background-color: aquamarine;
+    align-self: center;
 }
 
 .cuerpo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     width: 100%;
     height: 35%;
 }
@@ -24,3 +37,9 @@ body {
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
+
+.pantalon {
+    height: 50%;
+    background-color: #563d28;
+}
+

@@ -5,6 +5,8 @@ body {
 }
 .bob-esponja {
     border: 2px solid black;
+    min-width: 200px;
+    min-height: 280px;
     width: 200px;
     height: 280px;
 }
@@ -28,10 +30,49 @@ body {
 }
 
 .cara-interior-superior {
-    height: 50%;
+    height: 70%;
     display: flex;
     justify-content:flex-end;
     padding-right: 8px;
+}
+
+.caja-pestañas {
+    position: absolute;
+    width: 110px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    left: 95px;
+}
+
+.pestañas {
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pestaña1 {
+    width: 4px;
+    height: 12px;
+    background-color: #000000;
+    transform: rotate(-45deg);
+    margin-top: 5px;
+}
+
+.pestaña2 {
+    width: 4px;
+    height: 12px;
+    background-color: #000000;
+}
+
+.pestaña3 {
+    width: 4px;
+    height: 12px;
+    background-color: #000000;
+    transform: rotate(45deg);
+    margin-top: 7px;
 }
 
 .ojo-izquierdo {
@@ -45,6 +86,7 @@ body {
     align-items: center;
     position: absolute;
     margin-right: 65px;
+    margin-top: 10px;
 }
 
 .ojo-derecho {
@@ -56,7 +98,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 10px;
 }
 
 .iris {

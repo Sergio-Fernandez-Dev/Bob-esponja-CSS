@@ -154,7 +154,7 @@ body {
 }
 
 
-.corbata {
+.corbata1 {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -162,6 +162,16 @@ body {
     border: 2px solid #000000;
     transform: rotate(45deg);
     bottom: 25px;
+}
+
+.corbata2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #da0000;
+    border: 2px solid #000000;
+    transform: rotate(45deg);
+    top: 238px;
 }
 
 
@@ -199,9 +209,11 @@ body {
     height: 50%;
     background-color: #563d28;
     border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .cinturon {
